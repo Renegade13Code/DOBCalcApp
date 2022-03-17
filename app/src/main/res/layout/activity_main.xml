@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/spaceWhite"
+    android:background="@color/purple3"
+    android:padding="16dp"
     android:gravity="center_horizontal">
 
     <TextView
@@ -14,8 +15,73 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Calculate Your"
-        android:textColor="@color/pink"
+        android:textColor="@color/purple1"
         android:textSize="24sp"
-        android:textStyle="bold"/>
+/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple2"
+        android:padding="6dp"
+        android:text="Age"
+        android:textColor="@color/purple3"
+        android:textSize="24sp"
+ />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="In Minutes"
+        android:textColor="@color/purple1"
+        android:textSize="24sp"
+/>
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:backgroundTint="@color/teal"
+        android:textSize="14sp"
+        android:textColor="@color/purple1"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/displayDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/purple1"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textColor="@color/purple1"
+        android:textSize="18sp"
+        android:alpha="0.5"/>
+
+    <TextView
+        android:id="@+id/minutesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textColor="@color/pink"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minutes you have been alive"
+        android:textColor="@color/purple1"
+        android:textSize="18sp"
+        android:alpha="0.5"/>
+
 
 </LinearLayout>
